@@ -368,157 +368,235 @@ Style: High-end financial flowchart, glowing connecting arrows, modern flat desi
 ```
 
 ---
+---
 
 ## 第17篇《黑天鹅事件：极端风险的数学本质》
-**文章核心要点**：
-- 纳西姆·塔勒布（Nassim Taleb）2007年《黑天鹅》的三个特征：极端稀缺性、巨大冲击、事后可解释性
-- 正态分布 vs 幂律分布（Power Law）的根本区别
-- 肥尾分布（Fat-tail）：金融数据的峰度（Kurtosis）远大于3
-- 脆弱性 vs 反脆弱性：如何通过哑铃策略在黑天鹅中受益
+**文章核心要点**：塔勒布黑天鹅理论，正态分布 vs 幂律分布，脆弱性 vs 反脆弱性，哑铃策略，实战应用。
 
 ### EP17-01：封面图
 **文件名**：`images/ep17/ep17_cover_black_swan.jpg`
-**Prompt**：
-```
-A premium cinematic cover for Episode 17. Dark navy #0d1b2a background. Title: "第17篇：黑天鹅事件" in massive bold gold text. Subtitle: "极端风险的数学本质 — 不可预测的可预测" in silver.
-
-Center visual: A majestic, dramatic BLACK SWAN emerging from dark stormy financial data streams. The swan has glowing feathers that look like circuit patterns or mathematical symbols. Its reflection in dark water shows a bell curve shattering into a power law distribution. 
-
-Around the swan: Fragments of news headlines from famous black swan events (1987 Black Monday, 1997 Asian Crisis, 2008 Lehman collapse, 2020 COVID crash) rendered in glowing red shards.
-
-Background: Dark storm clouds made of probability distributions and fat-tail curves. Lightning made of mathematical formulas.
-
-Style: Ultra dramatic, cinematic, dark fantasy with financial mathematics overlaid, gold/red/deep-purple accent colors. 16:9.
-```
+**Prompt**：A premium cinematic cover for Episode 17. Dark navy #0d1b2a background. Title: "第17篇：黑天鹅事件" in bold gold. Center visual: A majestic BLACK SWAN emerging from stormy data streams, shattering a bell curve.
 
 ### EP17-02：公式解析（正态分布 vs 幂律）
 **文件名**：`images/ep17/ep17_formula_breakdown.jpg`
-**Prompt**：
-```
-A professional infographic contrasting Normal Distribution vs Power Law (Fat Tail) distribution. Dark navy background. Title: "正态分布 vs 幂律分布：为什么黑天鹅不罕见" in gold.
+**Prompt**：Infographic contrasting Normal Distribution (perfect bell curve, blue) vs Power Law (fat tail highlighted in glowing red). Title: "正态分布 vs 幂律分布：为什么黑天鹅不罕见" in gold.
 
-LEFT HALF — 正态分布 (Normal/Gaussian): 
-Formula: f(x) = (1/σ√2π) · exp(-(x-μ)²/2σ²)
-Visual: Perfect symmetrical bell curve in blue/white
-Text annotations: "Kurtosis = 3 (峰度)", "6σ事件概率≈1/十亿", "金融教科书的假设"
-Red warning label: "致命缺陷：严重低估极端事件概率！"
-Example: "按正态分布，2008年金融危机是25σ事件，理论上几乎不可能发生"
-
-RIGHT HALF — 幂律分布 (Power Law / Fat Tail):
-Formula: P(X > x) ~ x^(-α) where α is the tail exponent
-Visual: Distribution curve with dramatically fatter left and right tails highlighted in glowing red
-Text annotations: "Kurtosis >> 3", "极端事件概率远高于正态假设", "金融数据的真实形态"
-Green validation: "实证检验：标普500的日收益率峰度≈5-8，远大于3"
-Example: "2008年危机按幂律分布，是完全可能的小概率大事件"
-
-CENTER: A dramatic comparison arrow showing the difference in tail probabilities at the extreme end — normal distribution shows near-zero (flat), power law shows a significant elevated tail in red.
-
-Caption: "用正态分布管理金融风险，就像用晴天的地图预测台风路径"
-
-Style: Scientific and professional, side-by-side comparison, neon math formulas. 16:9.
-```
-
-### EP17-03：类比图（铃声与钢琴弦）
+### EP17-03：类比图（中等斯坦 vs 极端斯坦）
 **文件名**：`images/ep17/ep17_analogy_mediocristan.jpg`
-**Prompt**：
-```
-An educational infographic using Taleb's "Mediocristan vs Extremistan" concept. Dark navy background. Title: "中等斯坦 vs 极端斯坦：你生活在哪个世界？" in gold. 
+**Prompt**：Educational infographic. Two worlds side by side. Left: "中等斯坦" (calm, normal distribution of human height). Right: "极端斯坦" (stormy, extreme wealth distribution with one outlier dominating).
 
-TWO CONTRASTING WORLDS side by side:
+### EP17-04：全流程实战图（哑铃策略构建）
+**文件名**：`images/ep17/ep17_barbell_strategy.jpg`
+**Prompt**：A barbell strategy visualization. Left weight (90%): Safe assets (cash, gold) in green glow. Right weight (10%): High risk (deep out-of-the-money options) in red glow. Thin connecting bar.
 
-LEFT WORLD — "中等斯坦 Mediocristan" (gold border, calm):
-Examples floating in organized cells: 人的身高, 体重, 寿命, 智商, 城市温度
-Visual: A perfectly balanced scale, all examples cluster around the mean. Even the tallest person (3米) is only 2x the average.
-Key insight: "极端个体改变不了样本均值。全球最高的人加入1000人样本，均值只变0.2%"
-Bell curve icon: Perfect normal distribution
-Label: "正态分布的天堂 — 极端值不危险"
+### EP17-05：著名人物图
+**文件名**：`images/ep17/ep17_masters.jpg`
+**Prompt**：Portrait collage of Nassim Taleb and Mark Spitznagel on dark navy background. Glowing quotes about Antifragility and Universa Investments' 3600% return during crisis.
 
-RIGHT WORLD — "极端斯坦 Extremistan" (red border, stormy):  
-Examples: 财富分配, 股票收益率, 城市人口, 书籍销量, 战争死亡人数
-Visual: A wildly unbalanced scale, with one massive outlier dominating everything. Elon Musk added to 1000 billionaires — changes the average wealth by 1000x.
-Key insight: "一个极端个体可以让样本均值毫无意义。黑色星期一单日-22%，超过正常波动数十倍"
-Fat tail curve icon: Power law distribution with massive red tail
-Label: "幂律分布的世界 — 极端值是常态"
+### EP17-06：实战场景图
+**文件名**：`images/ep17/ep17_scenarios.jpg`
+**Prompt**：2x3 grid showing 6 practical scenarios for managing black swan risks (e.g., Options, Portfolio allocation, Stress testing). Neon outlines on dark navy.
 
-Center divider: "金融市场毫无疑问生活在极端斯坦！"
+### EP17-07：四大误区图
+**文件名**：`images/ep17/ep17_mistakes.jpg`
+**Prompt**：2x2 warning grid showing 4 fatal mistakes in extreme risk management (e.g., trusting VaR blindly, ignoring fat tails). Red warning accents.
 
-Style: Dramatically contrasting, educational, clean design, Chinese text dominant. 16:9.
-```
+### EP17-08：SOP流程图
+**文件名**：`images/ep17/ep17_sop.jpg`
+**Prompt**：Step-by-step flowchart for building an antifragile portfolio. 5 connected glowing boxes.
 
 ---
 
 ## 第18篇《蒙特卡洛模拟：用随机数预测未来》
-**文章核心要点**：
-- 蒙特卡洛的原理：通过大量随机模拟路径，近似出未来的概率分布
-- 历史：1940年代曼哈顿计划中乌拉姆和冯·诺依曼发明（名字来自摩纳哥赌城）
-- 核心应用：投资组合退休规划、期权定价、压力测试
-- 具体案例：模拟100万元本金，每年定投5万，30年后的资产分布（中位数、10%概率下限、10%概率上限）
 
 ### EP18-01：封面图
 **文件名**：`images/ep18/ep18_cover_monte_carlo.jpg`
-**Prompt**：
-```
-A premium cinematic cover for Episode 18 about Monte Carlo simulation. Dark navy #0d1b2a background. Title: "第18篇：蒙特卡洛模拟" in large bold gold text. Subtitle: "用10000次随机模拟，预见财富的可能未来" in silver.
+**Prompt**：Premium cinematic cover. Title: "第18篇：蒙特卡洛模拟" in gold. Center: 10,000 glowing simulation paths spreading outward from a single point.
 
-Center visual: A breathtaking fan of 10,000 glowing simulation paths spreading outward from a single starting point (like light rays or a river delta). The paths are color-coded: Bottom 10% paths in red (bad scenarios), middle 80% in cyan/blue gradient, top 10% in bright gold (best scenarios). The fan shape shows the widening uncertainty as time extends to the right. 
+### EP18-02：原理图解
+**文件名**：`images/ep18/ep18_principle.jpg`
+**Prompt**：Infographic explaining Monte Carlo method. Showing random variable generation -> simulation engine -> probability distribution of outcomes.
 
-Overlaid text: "10,000次模拟" in massive glowing neon number. 
+### EP18-03：生活类比图（天气预报/扔硬币）
+**文件名**：`images/ep18/ep18_analogy.jpg`
+**Prompt**：Analogy visual comparing Monte Carlo to predicting weather by running 1000 simulated atmospheric models.
 
-Background: The famous Casino de Monte-Carlo building silhouette in the distance, combined with mathematical probability density curves. Reference to Monaco's famous gambling halls where the technique was named.
+### EP18-04：实战演练图（退休资产模拟）
+**文件名**：`images/ep18/ep18_retirement_sim.jpg`
+**Prompt**：A chart showing a retirement portfolio simulated 10000 times over 30 years. Showing median, 5th percentile (ruin risk), and 95th percentile.
 
-Style: Ultra premium, glowing simulation paths, cinematic, mathematical beauty meets casino glamour. 16:9.
-```
+### EP18-05：大师应用图
+**文件名**：`images/ep18/ep18_masters.jpg`
+**Prompt**：Portraits of Stanislaw Ulam and John von Neumann. Background: Manhattan project references and early computer simulation charts.
+
+### EP18-06：实战场景图
+**文件名**：`images/ep18/ep18_scenarios.jpg`
+**Prompt**：2x3 grid of 6 scenarios (Option pricing, Risk management, Retirement planning, etc.) using Monte Carlo.
+
+### EP18-07：常见误区图
+**文件名**：`images/ep18/ep18_mistakes.jpg`
+**Prompt**：2x2 grid showing mistakes like "Garbage in, garbage out" (wrong volatility assumptions) or insufficient simulation runs.
+
+### EP18-08：SOP流程图
+**文件名**：`images/ep18/ep18_sop.jpg`
+**Prompt**：5-step flowchart for running a Monte Carlo simulation in Python/Excel.
 
 ---
 
 ## 第19篇《破产风险：赌徒破产问题与资金管理》
-**文章核心要点**：
-- 赌徒破产问题（Gambler's Ruin）：即使胜率大于50%，不合理的仓位也会导致破产
-- 破产概率公式：P(破产) = ((q/p)^N - 1)/((q/p)^N - (q/p)^0) 其中N是初始资金单位
-- 在交易中的应用：仓位大小决定了破产概率，而不是胜率
-- 连续亏损与破产概率的量化
 
 ### EP19-01：封面图
 **文件名**：`images/ep19/ep19_cover_ruin.jpg`
-**Prompt**：
-```
-A premium cinematic cover for Episode 19 about Gambler's Ruin and bankruptcy risk. Dark navy #0d1b2a background. Title: "第19篇：破产风险" in large gold text. Subtitle: "赌徒破产问题 — 即使你是赢家，也可能被市场淘汰" in silver.
+**Prompt**：Title: "第19篇：破产风险". Center: A dramatic infinite corridor representing random walk, with a massive red abyss labeled "破产线=0".
 
-Center visual: A dramatic chessboard-like infinite corridor stretching into darkness, representing the random walk of portfolio value. On the left wall: "起始资金 N 单位" with a green glow. On the right: a bright glowing goal "目标" (profit target). But on the floor, a massive red abyss labeled "破产线 = 0" that the corridor might fall into at any step.
+### EP19-02：核心公式解析
+**文件名**：`images/ep19/ep19_formula.jpg`
+**Prompt**：Gambler's ruin formula breakdown. Showing probability of ruin based on win rate (p) and bankroll (N).
 
-A single glowing coin mid-air showing heads and tails simultaneously — representing the probability of each step. Below it: two probability labels: "p = 胜率" in green, "q = 1-p = 败率" in red.
+### EP19-03：四大类比图
+**文件名**：`images/ep19/ep19_analogy.jpg`
+**Prompt**：Analogy of walking on a tightrope near a cliff vs far from a cliff. Distance to cliff = Capital buffer.
 
-Background: Faint equations of the Gambler's Ruin formula floating in the dark.
+### EP19-04：实战推演图（不同仓位的破产概率）
+**文件名**：`images/ep19/ep19_simulation.jpg`
+**Prompt**：A table/chart comparing 3 traders with 60% win rate but different bet sizes (50%, 20%, 5%). Showing the 50% bettor hitting 0.
 
-Style: Geometric, mathematical dread, dramatic infinite perspective, gold and red danger palette. 16:9.
-```
+### EP19-05：量化大师图
+**文件名**：`images/ep19/ep19_masters.jpg`
+**Prompt**：Victor Niederhoffer case study (blew up twice) vs Paul Tudor Jones (strict stop losses).
+
+### EP19-06：实战场景图
+**文件名**：`images/ep19/ep19_scenarios.jpg`
+**Prompt**：2x3 grid showing 6 ways to prevent ruin (Capital sizing, Stop losses, Diversification, etc.).
+
+### EP19-07：错误与SOP图
+**文件名**：`images/ep19/ep19_mistakes_sop.jpg`
+**Prompt**：Combined chart. Left: Fatal mistakes (Martingale strategy). Right: 4-step SOP to ensure zero ruin risk.
 
 ---
 
 ## 第20篇《最大回撤与资金恢复时间：衡量策略韧性》
-**文章核心要点**：
-- 最大回撤（Max Drawdown, MDD）：从历史高点到最低谷的最大跌幅百分比
-- 恢复时间（Recovery Time / Drawdown Duration）
-- 卡尔玛比率（Calmar Ratio）= 年化收益率 / 最大回撤，衡量风险调整后收益
-- 实战案例：巴菲特的伯克希尔在2009年最大回撤51%，但凭借优秀的基本面最终完整恢复
 
 ### EP20-01：封面图
 **文件名**：`images/ep20/ep20_cover_drawdown.jpg`
-**Prompt**：
-```
-A premium cinematic cover for Episode 20 about Max Drawdown and recovery. Dark navy #0d1b2a background. Title: "第20篇：最大回撤与资金恢复" in large gold text. Subtitle: "韧性的数学度量 — 你能从谷底爬回来吗？" in silver.
+**Prompt**：Title: "第20篇：最大回撤与恢复时间". Center: A chart dropping deep into a red valley and slowly climbing back out, with a phoenix silhouette.
 
-Center visual: A dramatic equity curve line chart showing:
-- Initial upward trend in bright gold
-- A sudden sharp drop (the maximum drawdown valley) in red — the bottom labeled "最低谷"
-- The peak before drop labeled "历史高点 (Peak)"
-- A recovery path back up in cyan/teal
-- The horizontal distance between peak and recovery labeled "恢复时间 (Recovery Time)" in orange
-- The vertical depth labeled "最大回撤 (Max Drawdown = -38%)" in red
+### EP20-02：回撤数学机制
+**文件名**：`images/ep20/ep20_math_asymmetry.jpg`
+**Prompt**：A stark mathematical table showing loss vs required gain to recover (e.g. -50% requires +100%, -90% requires +900%). Red to green gradient.
 
-A phoenix silhouette rising from the chart's lowest point toward recovery — representing resilience.
+### EP20-03：类比图（深坑与爬坑）
+**文件名**：`images/ep20/ep20_analogy.jpg`
+**Prompt**：Analogy of falling into a pit. The deeper the pit, the exponentially harder it is to climb out due to gravity (compounding math).
 
-Background: Multiple benchmark equity curves (Berkshire, S&P500) in faint lines showing their historical drawdown patterns.
+### EP20-04：真实回撤案例（伯克希尔哈撒韦）
+**文件名**：`images/ep20/ep20_berkshire_mdd.jpg`
+**Prompt**：Historical chart of Berkshire Hathaway showing its 50% drawdowns, emphasizing that even the best suffer MDD.
 
-Style: Dramatic narrative visualization, financial data art, gold-to-red-to-cyan emotional journey. 16:9.
-```
+### EP20-05：卡尔玛比率解析图
+**文件名**：`images/ep20/ep20_calmar_ratio.jpg`
+**Prompt**：Formula breakdown for Calmar Ratio = Annual Return / Max Drawdown. Visualizing risk-adjusted returns.
+
+### EP20-06：实战场景与误区
+**文件名**：`images/ep20/ep20_scenarios.jpg`
+**Prompt**：2x3 grid on setting drawdown limits, psychological thresholds, and the mistake of holding during a 60% drawdown.
+
+### EP20-07：SOP流程图（回撤管控机制）
+**文件名**：`images/ep20/ep20_sop.jpg`
+**Prompt**：Flowchart for managing drawdowns dynamically (e.g. at -10% halve position size, at -20% stop trading).
+
+---
+
+## 第21篇《主动管理定律：信息比率与预测宽度的乘积》
+
+### EP21-01：封面图
+**文件名**：`images/ep21/ep21_cover_fundamental_law.jpg`
+**Prompt**：Title: "第21篇：主动管理定律". Subtitle: "IR ≈ IC × √BR". Center: A glowing mathematical scale balancing skill (IC) and breadth (BR).
+
+### EP21-02：公式拆解
+**文件名**：`images/ep21/ep21_formula.jpg`
+**Prompt**：Infographic decomposing IR (Information Ratio), IC (Information Coefficient), and BR (Breadth). Gold and cyan highlights.
+
+### EP21-03：生活类比（狙击手与机枪手）
+**文件名**：`images/ep21/ep21_analogy.jpg`
+**Prompt**：Analogy: Sniper (High IC, Low BR) vs Machine Gunner (Low IC, High BR). Both can achieve the same target suppression (IR).
+
+### EP21-04：实战推演（量化如何战胜主观）
+**文件名**：`images/ep21/ep21_quant_vs_discretionary.jpg`
+**Prompt**：Table comparing a human stock picker (IC=0.15, BR=20) vs a Quant algorithm (IC=0.03, BR=2000). Quant wins due to sqrt(BR).
+
+### EP21-05：大师图（Grinold & Kahn）
+**文件名**：`images/ep21/ep21_masters.jpg`
+**Prompt**：Portraits of Richard Grinold and Ronald Kahn. Quote about the Fundamental Law of Active Management.
+
+### EP21-06：六大场景图
+**文件名**：`images/ep21/ep21_scenarios.jpg`
+**Prompt**：2x3 grid applying the law to HFT, multi-factor models, and retail trading.
+
+### EP21-07：常见错误与SOP
+**文件名**：`images/ep21/ep21_mistakes_sop.jpg`
+**Prompt**：Mistake: Forcing high frequency without skill. SOP: How to improve IC or increase BR effectively.
+
+---
+
+## 第22篇《B-S 期权定价模型：金融工程的皇冠》
+
+### EP22-01：封面图
+**文件名**：`images/ep22/ep22_cover_black_scholes.jpg`
+**Prompt**：Title: "第22篇：B-S 期权定价模型". Center: The iconic Black-Scholes partial differential equation glowing in gold over a futuristic derivatives market.
+
+### EP22-02：五大变量解析
+**文件名**：`images/ep22/ep22_variables.jpg`
+**Prompt**：A pentagon diagram breaking down the 5 inputs: S(Price), K(Strike), T(Time), r(Rate), σ(Volatility).
+
+### EP22-03：四大类比（保险定价）
+**文件名**：`images/ep22/ep22_analogy.jpg`
+**Prompt**：Analogy of pricing car insurance. Volatility = Bad driving record. Time = Policy length.
+
+### EP22-04：希腊字母图谱
+**文件名**：`images/ep22/ep22_greeks.jpg`
+**Prompt**：A dashboard showing Delta, Gamma, Theta, Vega, Rho with their mechanical equivalents (Speedometer, Acceleration, Melting ice).
+
+### EP22-05：大师图（Black, Scholes, Merton）
+**文件名**：`images/ep22/ep22_masters.jpg`
+**Prompt**：Portraits of Myron Scholes and Robert Merton (Nobel winners) and Fischer Black.
+
+### EP22-06：波动率微笑（Volatility Smile）
+**文件名**：`images/ep22/ep22_vol_smile.jpg`
+**Prompt**：Chart showing implied volatility smile. Exposing the flaw of BS model (assuming constant volatility).
+
+### EP22-07：实战SOP与错误
+**文件名**：`images/ep22/ep22_sop_mistakes.jpg`
+**Prompt**：Mistakes: Ignoring implied volatility crush. SOP: How to use Delta-hedging.
+
+---
+
+## 第23篇《行为金融学数学化：前景理论与损失厌恶》
+
+### EP23-01：封面图
+**文件名**：`images/ep23/ep23_cover_behavioral.jpg`
+**Prompt**：Title: "第23篇：行为金融学数学化". Center: The asymmetric S-shaped Value Function curve from Prospect Theory.
+
+### EP23-02：价值函数解析
+**文件名**：`images/ep23/ep23_value_function.jpg`
+**Prompt**：Detailed graph of the value function. Showing losses hurt 2.25x more than gains feel good.
+
+### EP23-03：四大类比（沸水煮青蛙与丢钱）
+**文件名**：`images/ep23/ep23_analogy.jpg`
+**Prompt**：Visuals of losing $100 vs finding $100, showing emotional asymmetry.
+
+### EP23-04：概率权重函数（彩票偏差）
+**文件名**：`images/ep23/ep23_probability_weighting.jpg`
+**Prompt**：Graph showing how humans overweight 1% probabilities (lottery) and underweight 99% probabilities.
+
+### EP23-05：大师图（卡尼曼与特沃斯基）
+**文件名**：`images/ep23/ep23_masters.jpg`
+**Prompt**：Portraits of Daniel Kahneman (Nobel winner) and Amos Tversky.
+
+### EP23-06：实战收割机（量化如何利用散户偏差）
+**文件名**：`images/ep23/ep23_quant_harvest.jpg`
+**Prompt**：Diagram showing Momentum exploiting Disposition Effect, and Mean Reversion exploiting Overreaction.
+
+### EP23-07：反直觉SOP与克服人性
+**文件名**：`images/ep23/ep23_sop.jpg`
+**Prompt**：Flowchart for systematic trading to bypass human emotion (Automated stop losses, trailing stops).
