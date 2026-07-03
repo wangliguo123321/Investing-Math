@@ -1,0 +1,16 @@
+[main 65c424b] feat: 完成第12篇《夏普比率》并移除了多余的系列导航
+ 23 files changed, 440 insertions(+), 61 deletions(-)
+ create mode 100644 .system_generated/messages/303948d9-ef84-4e3c-b23b-fe99d8f3c18c.json
+ create mode 100644 .system_generated/tasks/task-980.log
+ create mode 100644 "episodes/\347\254\25412\347\257\207_\345\244\217\346\231\256\346\257\224\347\216\207_\347\255\226\347\225\245\350\264\250\351\207\217\347\232\204\346\240\207\345\207\206\345\260\272.md"
+ create mode 100644 "episodes/\347\254\25412\347\257\207_\345\244\217\346\231\256\346\257\224\347\216\207_\347\255\226\347\225\245\350\264\250\351\207\217\347\232\204\346\240\207\345\207\206\345\260\272.md.metadata.json"
+ create mode 100644 images/ep12/ep12_analogy_gymnastics_1783043475324.jpg
+ create mode 100644 images/ep12/ep12_cover_sharpe_1783043444562.jpg
+ create mode 100644 images/ep12/ep12_formula_breakdown_1783043457454.jpg
+ create mode 100644 images/ep12/ep12_masters_1783043536547.jpg
+ create mode 100644 images/ep12/ep12_mistakes_1783043548316.jpg
+ create mode 100644 images/ep12/ep12_performance_comparison_1783043493458.jpg
+ create mode 100644 images/ep12/ep12_scenarios_1783043624988.jpg
+ create mode 100644 images/ep12/ep12_sop_1783043571105.jpg
+To github.com:wangliguo123321/Investing-Math.git
+   21e1316..65c424b  main -> main
