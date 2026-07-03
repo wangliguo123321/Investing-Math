@@ -1,0 +1,24 @@
+[main 21e1316] [fix] 完成第11篇《现代投资组合理论》及配图 【分析】第三模块配置篇的首发文章，系统讲解了有效前沿、组合方差、不相关资产及Ray Dalio全天候策略，加入实战场景与SOP，并且修复了EP10底部链接。 【方案】严格按照五大模块规划与13段黄金框架落地，并生成8张专属配图推至远程仓库。
+ 30 files changed, 543 insertions(+), 308 deletions(-)
+ create mode 100644 .system_generated/messages/32c63e0e-2605-4fb2-869c-330459755999.json
+ create mode 100644 .system_generated/messages/4cc362f0-a3fb-4d9f-bba1-12b72a7be188.json
+ create mode 100644 .system_generated/messages/6e62d495-6cac-485d-82f8-45849e4fb458.json
+ create mode 100644 .system_generated/messages/bc9a27da-64f9-4bad-9942-9e29bc792aff.json
+ create mode 100644 .system_generated/messages/d790e31f-d6a0-411f-8c0b-68d916c71cfd.json
+ create mode 100644 .system_generated/messages/f8ea4320-8eb0-43ef-93f1-0e8fb703358b.json
+ create mode 100644 .system_generated/tasks/task-872.log
+ create mode 100644 .system_generated/tasks/task-879.log
+ create mode 100644 .system_generated/tasks/task-885.log
+ create mode 100644 .system_generated/tasks/task-907.log
+ create mode 100644 "episodes/\347\254\25411\347\257\207_\347\216\260\344\273\243\346\212\225\350\265\204\347\273\204\345\220\210\347\220\206\350\256\272_\346\234\211\346\225\210\345\211\215\346\262\277\347\232\204\350\276\271\347\225\214.md"
+ create mode 100644 "episodes/\347\254\25411\347\257\207_\347\216\260\344\273\243\346\212\225\350\265\204\347\273\204\345\220\210\347\220\206\350\256\272_\346\234\211\346\225\210\345\211\215\346\262\277\347\232\204\350\276\271\347\225\214.md.metadata.json"
+ create mode 100644 images/ep11/ep11_analogy_tug_of_war.jpg
+ create mode 100644 images/ep11/ep11_cover_mpt.jpg
+ create mode 100644 images/ep11/ep11_efficient_frontier.jpg
+ create mode 100644 images/ep11/ep11_formula_breakdown.jpg
+ create mode 100644 images/ep11/ep11_masters.jpg
+ create mode 100644 images/ep11/ep11_mistakes.jpg
+ create mode 100644 images/ep11/ep11_scenarios.jpg
+ create mode 100644 images/ep11/ep11_sop.jpg
+To github.com:wangliguo123321/Investing-Math.git
+   22c4cd9..21e1316  main -> main
