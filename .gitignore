@@ -9,3 +9,6 @@ implementation_plan.md
 task.md
 walkthrough.md
 prompt_draft.md
+local_version/
+*.zip
+scratch/
