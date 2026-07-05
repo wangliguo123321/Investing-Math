@@ -44,6 +44,9 @@
 
 ## 二、核心公式：用人话讲透每个符号
 
+![公式推导过程](../images/ep14_derivation_1783227345996.jpg)
+
+
 ![公式完全解析](../images/ep14/ep14_formula_breakdown.jpg)
 
 Optimal-f 的核心是最大化**终期财富比率 TWR**（Terminal Wealth Relative）。
